@@ -1,1 +1,42 @@
+User-agent: *
+Allow: /
 
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Google Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl（多数のLLM学習に使われる）
+User-agent: CCBot
+Allow: /
+
+# Amazon Alexa
+User-agent: Amazonbot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+Sitemap: https://keisuke9n.github.io/sitemap.xml
